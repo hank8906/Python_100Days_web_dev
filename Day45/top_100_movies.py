@@ -19,6 +19,6 @@ for movie in selector:
 reversed_movies = movies[::-1]
 # print(reversed_movies)
 
-with open("top_100_movies.text_1", 'w', errors='ignore') as file:
+with open("top_100_movies.txt", 'w', encoding='utf-8') as file:
     for movie in reversed_movies:
         file.write(f"{movie}\n")
