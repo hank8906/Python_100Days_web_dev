@@ -6,22 +6,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="../static/css/styles.css">
 </head>
+
 <body>
 <div class="wrapper">
     <div class="top">
         <div class="title"><h1>Hank's Blog</h1></div>
-           </div>
-        <div class="content">
-
-            <div class="card">
-                <h2>Title</h2>
-                <p>Post Body</p>
-            </div>
-
+    </div>
+    <div class="content">
+        <div class="card">
+            <h2>{{ posts_body['title'] }}</h2>
+            <p>{{ posts_body['body'] }}</p>
+        </div>
     </div>
 </div>
 </body>
+
 <footer>
-    <p>Made with ♥️ in London.</p>
+    <p>Made with Hank in Taiwan.</p>
 </footer>
 </html>
